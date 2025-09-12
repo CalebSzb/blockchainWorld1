@@ -1,0 +1,119 @@
+body{
+	background-color: white;
+	font-family: courier;
+}
+/*.blockchain world & nav bar*/
+.head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: grey;
+}
+.title{
+	font-family: courier;
+	color: black;
+}
+.navb{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav:hover{
+	color: grey;
+	text-decoration: underline;
+}
+/*link settings*/
+a{
+	text-decoration: none;
+	color: black;
+}
+/*news section*/
+.news{
+	margin-top: 10vh;
+	margin-left: 3vw;
+}
+.newscontent{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-right: 40vw;
+	margin-bottom: 5vh;
+	transition: transform 5s, background color 5s ease;
+}
+.newsimg{
+	height: 20vh;
+	width: 20vw;
+	border-radius: 10px;
+}
+h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.teaser{
+	flex: 1;
+}
+.imgteaser{
+	display: flex;
+	gap: 2vw;
+	align-items: flex-start;
+	text-decoration: none;
+}
+.imgteaser:hover{
+	transform: scale(1.05);
+	transition: transform 1.1s ease;
+}
+/*copyright*/
+footer{
+	font-size: 17px;
+	color: grey;
+}
+
+/*this is for article1*/
+.headingimg{
+	display: flex;
+	justify-content: left;
+	align-content: center;
+}
+.articleimg{
+	display: flex;
+	height: 20vh;
+	width: 50vw;
+}
+.articlepage{
+	margin-left: 5vw;
+	margin-top: 4vh;
+	margin-right: 40vw;
+	
+}
+article{
+	font-family: sans-serif;
+}
+.wholepage{
+	display: flex;
+	justify-content: center;
+}
+.articlemeat{
+	padding-bottom: 10vh;
+}
+.aboutarticle{
+	text-align: center;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 15vh;
+}
+.aboutb{
+	display: flex;
+	justify-content: center;
+}
+iframe{
+	border-radius: 10px;
+}
+.contact{
+	text-decoration: none;
+	color: blue;
+}
+.booklink{
+	color: blue;
+}
+	
